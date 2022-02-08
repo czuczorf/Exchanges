@@ -18,7 +18,7 @@ Define the full path to the database file in the **data_file** variable
 data_file = "./DB/exchanges.json"
 ```
 
-To get the list of the exchanges, create an instance of the **ExchangeList** class and use the *exchanges_get()* function.
+To get the list of the exchanges, create an instance of the **ExchangeList** class and use the **exchanges_get()** function.
 
 ```
 exchanges = ExchangeList(data_file)
@@ -37,7 +37,7 @@ After that you can get the price by using the **price_get()** function with the 
 binance.price_get('btc')
 ```
 
-If you want to grab the latest price information dictionary from FTX exchange for AVAX perpetual, simple use this short code
+If you want to grab the latest price information dictionary from **FTX** exchange for **AVAX** perpetual, simple use this short code
 ```
 ftx = Exchange('ftx',data_file)
 ftx.price_get('avax-perp')
