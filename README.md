@@ -1,6 +1,7 @@
 # Exchanges
-Simple exchange management.
-For all of the details please see the sample [script](https://github.com/czuczorf/Exchanges/blob/main/Exchange-sample.py) and the json [files](https://github.com/czuczorf/Exchanges/tree/main/DB)
+Simple exchange management library.
+
+For all the details please see the sample [script](https://github.com/czuczorf/Exchanges/blob/main/Exchange-sample.py) and the json [files](https://github.com/czuczorf/Exchanges/tree/main/DB). Which includes how to list all the exchanges and also how to list all the products on a specific exchange with the latest price informations.
 
 # Current features
 - Gets all of the available exchanges
@@ -35,6 +36,13 @@ After that you can get the price by using the **price_get()** function with the 
 ```
 binance.price_get('btc')
 ```
+
+If you want to grab the latest price information dictionary from FTX exchange for AVAX perpetual, simple use this short code
+```
+ftx = Exchange('ftx',data_file)
+ftx.price_get('avax-perp')
+```
+
 
 # Output
 
