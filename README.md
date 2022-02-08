@@ -1,5 +1,6 @@
 # Exchanges
-Simple exchange management
+Simple exchange management.
+For all of the details please see the sample [script](https://github.com/czuczorf/Exchanges/blob/main/Exchange-sample.py) and the json [files](https://github.com/czuczorf/Exchanges/tree/main/DB)
 
 # Current features
 - Gets all of the available exchanges
@@ -39,5 +40,4 @@ binance.price_get('btc')
 
 ![Output](https://github.com/czuczorf/Exchanges/blob/main/images/output.jpg)
 
-**For more details, please see the sample** [script](https://github.com/czuczorf/Exchanges/blob/main/Exchange-sample.py)
 
