@@ -1,0 +1,66 @@
+{
+    "Binance":{
+        "id":   "binance",
+        "name": "Binance",
+        "version": "v1",
+        "api": "ApiURL",
+        "has":{
+            "fetchProducts":true,
+            "fetchPrices":true
+        },
+        "timeframes":{
+            "1m":"1minute",
+            "1h":"1hour",
+            "1d":"1day",
+            "1M":"1month",
+            "1y":"1year"
+        },
+        "timeout":10000,
+        "products":{
+            "BTC":{
+                "id":"btc",
+                "symbol":"BTC"
+             },
+             "ETH":{
+                "id":"eth",
+                "symbol":"ETH"
+             }, 
+             "XRP":{
+                "id":"xrp",
+                "symbol":"XRP"
+             }
+        }
+    },
+    "FTX":{
+        "id":   "ftx",
+        "name": "FTX",
+        "version": "v1",
+        "api": "ApiURL",
+        "has":{
+            "fetchProducts":true,
+            "fetchPrices":true
+        },
+        "timeframes":{
+            "1m":"1minute",
+            "1h":"1hour",
+            "1d":"1day",
+            "1M":"1month",
+            "1y":"1year"
+        },
+        "timeout":10000,
+        "products":{
+            "MATIC-PERP":{
+                "id":"matic-perp",
+                "symbol":"MATIC-PERP"
+             },
+             "AVAX-PERP":{
+                "id":"avax-perp",
+                "symbol":"AVAX-PERP"
+             }, 
+             "LUNA-PERP":{
+                "id":"luna-perp",
+                "symbol":"LUNA-PERP"
+             }
+        }
+    }
+}

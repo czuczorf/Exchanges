@@ -1,0 +1,35 @@
+{
+    "matic-perp":{
+        "timestamp":         1644240974,
+            "high":          200,
+            "low":           100, 
+            "bid":           150,
+            "bidVolume":     2322, 
+            "ask":           4553,
+            "askVolume":     12,
+            "open":          122,
+            "close":         34
+        },
+    "avax-perp":{
+        "timestamp":         1644240974,
+            "high":          450,
+            "low":           200, 
+            "bid":           350,
+            "bidVolume":     422, 
+            "ask":           453,
+            "askVolume":     12,
+            "open":          122,
+            "close":         56
+        },
+    "luna-perp":{
+        "timestamp":         1644240974,
+            "high":          200,
+            "low":           100, 
+            "bid":           150,
+            "bidVolume":     2322, 
+            "ask":           4553,
+            "askVolume":     12,
+            "open":          122,
+            "close":         42
+        }               
+}
